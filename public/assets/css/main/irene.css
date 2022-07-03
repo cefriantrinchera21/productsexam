@@ -1,0 +1,27 @@
+html, body { height: 100%;}
+
+.modal-backdrop {
+    z-index: -1 !important;
+  }
+
+  .sidebar-wrapper .sidebar-header img{
+    height: 4rem !important;
+}
+
+#main{
+    height: 100vh !important;
+}
+
+.logo{
+  width:125px !important; 
+  text-align: center;
+}
+@media only screen and (max-width: 767px) {
+  .style-top{
+    margin-top: -15px;
+  }
+
+  .logo{
+    width:100%;
+  }
+}
